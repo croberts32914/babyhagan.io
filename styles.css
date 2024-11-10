@@ -24,7 +24,7 @@ body {
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  background: radial-gradient(circle, #00B4AB 30%, #f84235 60%, silver 90%);
+  background: radial-gradient(circle, yellow 30%, Yellow 60%, rgb(72, 192, 72) 90%);
   /* Set the radial gradient as the background */
 }
 

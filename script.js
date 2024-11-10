@@ -1,8 +1,8 @@
-// Set the date of your trip
+// Set the date of your countdown
 const tripDate = new Date("June 17, 2025 00:00:00").getTime();
 
 // Update the countdown every second
-const countdown = setInterval(function() {
+const countdown = setInterval(function () {
   const now = new Date().getTime();
   const distance = tripDate - now;
 
@@ -21,3 +21,12 @@ const countdown = setInterval(function() {
     document.getElementById("countdown").innerHTML = "Trip time!";
   }
 }, 1000);
+
+window.addEventListener("load", function () {
+  const audio = document.getElementById("celebrationAudio");
+  audio.muted = false;  // Unmute the audio
+  audio.play().catch(error => {
+    console.log("Autoplay prevented:", error);
+  });
+});
+

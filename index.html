@@ -10,9 +10,16 @@
 
 <body>
   <div class="countdown-container">
-    <h1>Welcome Baby Hagan June 17, 2025</h1>
+    <h1>Welcome Baby Hagan - June 17, 2025</h1>
     <div id="countdown"></div>
-  </div>
+
+    <!-- Autoplay audio when page loads -->
+    <audio id="celebrationAudio" src="dreambig.mp3" autoplay preload="auto"></audio>
+
+  <button onclick="document.getElementById('celebrationAudio').play()">Play Music</button>
+</div>
+  <div id="timerDisplay"></div>
+
   <script src="script.js"></script>
 </body>
 

@@ -1,4 +1,4 @@
-body {
+.body {
   background-image: url('ark.jpg');
   font-family: Arial, sans-serif;
   display: flex;
@@ -33,4 +33,85 @@ body {
   margin-top: 20px;
   color: black;
   /* Set text color to black for better contrast */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for the body */
+body {
+  background-image: url('ark.jpg');
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: flex-end;
+}
+
+/* Countdown container styling */
+.countdown-container {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: radial-gradient(circle, yellow 30%, Yellow 60%, rgb(72, 192, 72) 90%);
+}
+
+/* Countdown text styling */
+#countdown {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: black;
+}
+
+/* Style for the button */
+button {
+  background-color: #ffcc00;
+  /* Bright yellow background */
+  color: white;
+  /* White text */
+  padding: 15px 30px;
+  /* Adds space around the text */
+  font-size: 1.2rem;
+  /* Increase font size */
+  border: none;
+  /* Removes border */
+  border-radius: 10px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Change the cursor to a pointer */
+  margin-top: 20px;
+  /* Adds space above the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add subtle shadow */
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #ff9900;
+  /* Darken the background color on hover */
+  transform: scale(1.1);
+  /* Slightly enlarge the button */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  /* Slightly increase the shadow */
 }

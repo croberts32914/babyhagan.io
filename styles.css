@@ -1,0 +1,36 @@
+body {
+  background-image: url('ark.jpg');
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  /* Stretch the background image to cover the entire page */
+  background-repeat: no-repeat;
+  /* Prevent the background image from repeating */
+  background-position: center;
+  align-items: flex-end;
+  /* Align items at the bottom */
+}
+
+.countdown-container {
+  margin-bottom: 20px;
+  /* Add some margin at the bottom for spacing from the bottom edge */
+}
+
+.countdown-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: radial-gradient(circle, #00B4AB 30%, #f84235 60%, silver 90%);
+  /* Set the radial gradient as the background */
+}
+
+#countdown {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: black;
+  /* Set text color to black for better contrast */
+}

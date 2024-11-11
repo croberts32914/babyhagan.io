@@ -13,11 +13,12 @@
     <h1>Baby Hagan's Big Arrival! June 17, 2025</h1>
     <div id="countdown"></div>
 
-    <!-- Autoplay audio when page loads -->
-    <audio id="celebrationAudio" src="dreambig.mp3" autoplay preload="auto"></audio>
+    <!-- Audio element (no autoplay so we can control it manually) -->
+    <audio id="celebrationAudio" src="dreambig.mp3" preload="auto"></audio>
 
-  <button onclick="document.getElementById('celebrationAudio').play()">Play Music</button>
-</div>
+    <!-- Play/Pause Button -->
+    <button id="playPauseButton" onclick="toggleAudio()">Play</button>
+  </div>
   <div id="timerDisplay"></div>
 
   <script src="script.js"></script>

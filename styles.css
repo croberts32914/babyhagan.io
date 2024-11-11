@@ -53,8 +53,6 @@ button {
   /* Add subtle shadow */
   transition: all 0.3s ease;
   /* Smooth transition for hover effect */
-    border: 3px solid #333;
-      /* Adds a border around the button */
 }
 
 /* Button hover effect */
@@ -73,8 +71,7 @@ button {
   color: white;
   padding: 15px 30px;
   font-size: 1.2rem;
-  border: 3px solid #333;
-  /* Adds a border around the button */
+
   border-radius: 10px;
   /* Optional: rounds the corners of the button */
   cursor: pointer;

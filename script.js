@@ -18,7 +18,7 @@ const countdown = setInterval(function () {
   // If the countdown is over, display a message
   if (distance < 0) {
     clearInterval(countdown);
-    document.getElementById("countdown").innerHTML = "Trip time!";
+    document.getElementById("countdown").innerHTML = "Precious Baby Hagans Arrival Date Has Arrived!";
   }
 }, 1000);
 
@@ -30,3 +30,17 @@ window.addEventListener("load", function () {
   });
 });
 
+// Function to toggle between play and pause
+function toggleAudio() {
+  const audio = document.getElementById('celebrationAudio');
+  const playPauseButton = document.getElementById('playPauseButton');
+
+  // If audio is paused, play it
+  if (audio.paused) {
+    audio.play();
+    playPauseButton.innerText = 'Pause'; // Change button text to "Pause"
+  } else {
+    audio.pause();
+    playPauseButton.innerText = 'Play'; // Change button text to "Play"
+  }
+}
